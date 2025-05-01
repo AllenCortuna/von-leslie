@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Public Awareness on Intellectual Property",
-  description: " E-Portfolio about Public Awareness on Intellectual Property",
+  title: "Von and Leslie",
+  description: "Join us for flowing drinks and more dancing",
 };
 
 export default function RootLayout({
