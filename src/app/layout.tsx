@@ -12,6 +12,18 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Von and Leslie",
   description: "Join us for flowing drinks and more dancing",
+  openGraph: {
+    title: "Von and Leslie",
+    description: "Join us for flowing drinks and more dancing",
+    images: [
+      {
+        url: '/ogImage.png',
+        width: 1200,
+        height: 630,
+        alt: 'Von and Leslie Wedding',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
