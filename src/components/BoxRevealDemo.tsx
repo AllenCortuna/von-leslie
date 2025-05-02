@@ -64,6 +64,10 @@ export async function BoxRevealDemo() {
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <img src="/img/img15.png" width={100} height={100} alt="Logo" className="w-full"/>
       </BoxReveal>
+
+      <BoxReveal boxColor={"#5046e6"} duration={0.5}>
+        <img src="/img/img16.png" width={100} height={100} alt="Logo" className="w-full"/>
+      </BoxReveal>
    
     </div>
   );
