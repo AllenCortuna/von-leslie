@@ -13,16 +13,19 @@ export const metadata: Metadata = {
   title: "Von and Leslie",
   description: "Join us for flowing drinks and more dancing",
   openGraph: {
+    type: "website",
+    url: "https://vonwillloveyouendleslie.vercel.app",
     title: "Von and Leslie",
     description: "Join us for flowing drinks and more dancing",
     images: [
       {
-        url: '/ogImage.png',
+        url: 'https://vonwillloveyouendleslie.vercel.app/ogImage.png',
         width: 1200,
         height: 630,
         alt: 'Von and Leslie Wedding',
       },
     ],
+    siteName: "Von and Leslie Wedding",
   },
 };
 
